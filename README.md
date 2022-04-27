@@ -1,5 +1,5 @@
 <h1 align="center">
-  <a href="https://FreeNFTMint.app"><img width="75%" src="https://freenftmint.app/assets/images/logo.png" alt="Free NFT Mint App logo" /></a>
+  <a href="https://FreeNFTMint.app"><img width="30%" src="https://freenftmint.app/assets/images/logo.png" alt="Free NFT Mint App logo" /></a>
 </h1>
 
 <h3 align="center">ERC-1155 NFT token smart contract used by <a href="FreeNFTMint.app">FreeNFTMint.app</a></h3>
@@ -17,7 +17,7 @@ This smart contract is an example of how you can setup different metadata IPFS U
 
  The metadata IPFS URL's are passed to the smart contract upon minting. The metadata IPFS URL for the token can then be updated on the blockchain to point to a new URL
 
-This smart contract code is deployed Ethereum Mainnet and verified on Etherscan and is currently used in the [FreeNFTMint.App](https://FreeNFTMint.App) dApp
+This smart contract code is deployed on the Ethereum network and is currently used in the [FreeNFTMint.App](https://FreeNFTMint.App) dApp
 
 Here is the deployed address and verified source code on etherscan.
 
