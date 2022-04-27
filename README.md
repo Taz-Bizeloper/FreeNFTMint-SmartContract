@@ -1,9 +1,34 @@
-# FreeNFTMint-SmartContract
-ERC1155 NFT smart contract used by [Free NFT Mint App](https://freenftmint.app)
+<h1 align="center">
+  <a href="https://FreeNFTMint.app"><img width="75%" src="https://freenftmint.app/assets/images/logo.png" alt="Free NFT Mint App logo" /></a>
+</h1>
 
-This smart contract is a good example of how you can setup different metadata IPFS URL's for each token and allowing to update the metadata IPFS URL via smart contract.
+<h3 align="center">ERC-1155 NFT token smart contract used by <a href="FreeNFTMint.app">FreeNFTMint.app</a></h3>
+
+<h4 align="center">Made With 🧡 By The <a href="https://Bizelop.app">Bizelop</a> Community </h4>
+<p align="center">
+  <a href="https://discord.gg/bizelop"><img src="https://img.shields.io/badge/chat-discord?style=for-the-badge&logo=discord&label=discord&logoColor=7389D8&color=ff6501" /></a>
+  <a href="https://twitter.com/bizelop"><img alt="Twitter Follow" src="https://img.shields.io/twitter/follow/bizelop?color=ff6501&label=twitter&logo=twitter&style=for-the-badge"></a>
+</p>
+
+
+
+# About
+This smart contract is an example of how you can setup different metadata IPFS URL's for each token and allowing to update the metadata IPFS URL via smart contract.
 
  The metadata IPFS URL's are passed to the smart contract upon minting. The metadata IPFS URL for the token can then be updated on the blockchain to point to a new URL
+
+This smart contract code is deployed Ethereum Mainnet and verified on Etherscan and is currently used in the [FreeNFTMint.App](https://FreeNFTMint.App) dApp
+
+Here is the deployed address and verified source code on etherscan.
+
+Mainnet - [0xD730b6fe43b78a0785A82928FB6E94996D2F4720](https://etherscan.io/address/0xD730b6fe43b78a0785A82928FB6E94996D2F4720)
+
+Rinkeby - [0xDD6ECA21A6638EE8e8b29Beebd3aB3ED25845C03](https://rinkeby.etherscan.io/address/0xDD6ECA21A6638EE8e8b29Beebd3aB3ED25845C03)
+
+
+You are free to clone and update the code as needed and if you need any help join the [Discord](https://discord.gg/bizelop)
+
+
 
 
 ## Prerequisites
@@ -123,4 +148,31 @@ Full example:
 
 ```
 npx hardhat verify --network rinkeby 0xDD6ECA21A6638EE8e8b29Beebd3aB3ED25845C03
+```
+
+# License
+
+```
+MIT License
+
+Copyright (c) 2022 Bizelop Community Code
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
 ```
