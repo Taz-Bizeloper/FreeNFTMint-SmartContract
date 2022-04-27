@@ -61,7 +61,7 @@ Now that you have the initial setup you can now go into the smart contract file 
 contracts/Free-NFT-Mint-App.sol
 ```
 
- and update the file name and Smart Contract name to your project name
+Update the file name and Smart Contract name to your project name
 
 
  Some data is needed specifically for NFT marketplaces like OpenSea to be able to read in your contract information and these are:
@@ -112,7 +112,7 @@ npx hardhat deploy --network mainnet
 This may take a few minutes. Once deployed you will get your smart contract address in the console log copy it.
 
 # Verify Your Smart Contract On Etherscan 
-You an verify your smart contract with etherscan very easily. Etherscan smart contract verification provides transparency for users interacting with smart contracts. Your smart contract source code will be uploaded and matched the compiled version you deployed. Users can then verify and audit the code to make sure it does what it is supposed to do.
+You can verify your smart contract with etherscan very easily. Etherscan smart contract verification provides transparency for users interacting with smart contracts. Your smart contract source code will be uploaded and matched against the compiled version you deployed. Users can then verify and audit the code to make sure it does what it is supposed to do.
 
 Once deployed if you want to have your smart contract verified on etherscan run the following command and replace NETWORK with "rinkeby" or "mainnet"
 
