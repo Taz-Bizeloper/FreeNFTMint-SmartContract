@@ -47,7 +47,7 @@ contract FreeNFTMint is ERC1155, Ownable {
         currentTokenId.increment();
         uint256 newItemId = currentTokenId.current();
         _uris[newItemId] = uri;
-        _mint(account, newItemId, qty**18, "");
+        _mint(account, newItemId, qty, "");
         TOTAL_MINTED = TOTAL_MINTED + 1;
         _tokenOwners[newItemId] = account;
     }
@@ -57,7 +57,9 @@ contract FreeNFTMint is ERC1155, Ownable {
         string[] memory uri,
         uint256[] memory amounts
     ) public {
-        uint256[] memory ids;
+        uint256 size = uri.length;
+        uint256[] memory ids = new uint256[](size);
+
         for (uint256 i = 0; i < uri.length; i++) {
             currentTokenId.increment();
             uint256 newItemId = currentTokenId.current();

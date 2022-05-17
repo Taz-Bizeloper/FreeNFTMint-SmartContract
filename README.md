@@ -7,7 +7,7 @@
 <h4 align="center">Made With 🧡 By The <a href="https://Bizelop.app">Bizelop</a> Community </h4>
 <p align="center">
   <a href="https://discord.gg/bizelop"><img src="https://img.shields.io/badge/chat-discord?style=for-the-badge&logo=discord&label=discord&logoColor=7389D8&color=ff6501" /></a>
-  <a href="https://twitter.com/bizelop"><img alt="Twitter Follow" src="https://img.shields.io/twitter/follow/bizelop?color=ff6501&label=twitter&logo=twitter&style=for-the-badge"></a>
+  <a href="https://twitter.com/mmwirelesstech"><img alt="Twitter Follow" src="https://img.shields.io/twitter/follow/mmwirelesstech?color=ff6501&label=twitter&logo=twitter&style=for-the-badge"></a>
 </p>
 
 
@@ -23,7 +23,7 @@ Here is the deployed address and verified source code on etherscan.
 
 Mainnet - [0xD730b6fe43b78a0785A82928FB6E94996D2F4720](https://etherscan.io/address/0xD730b6fe43b78a0785A82928FB6E94996D2F4720)
 
-Rinkeby - [0xDD6ECA21A6638EE8e8b29Beebd3aB3ED25845C03](https://rinkeby.etherscan.io/address/0xDD6ECA21A6638EE8e8b29Beebd3aB3ED25845C03)
+Rinkeby - [0xa72B399F44Eed50AcEa7194c63eD6b068E76AE6B](https://rinkeby.etherscan.io/address/0xa72B399F44Eed50AcEa7194c63eD6b068E76AE6B)
 
 
 You are free to clone and update the code as needed and if you need any help join the [Discord](https://discord.gg/bizelop)
@@ -147,7 +147,7 @@ npx hardhat verify --network NETWORK smart_contract_address
 Full example:
 
 ```
-npx hardhat verify --network rinkeby 0xDD6ECA21A6638EE8e8b29Beebd3aB3ED25845C03
+npx hardhat verify --network rinkeby 0xa72B399F44Eed50AcEa7194c63eD6b068E76AE6B
 ```
 
 # License
