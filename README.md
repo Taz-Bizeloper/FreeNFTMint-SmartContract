@@ -21,7 +21,7 @@ This smart contract code is deployed on the Ethereum network and is currently us
 
 Here is the deployed address and verified source code on etherscan.
 
-Mainnet - [0xD730b6fe43b78a0785A82928FB6E94996D2F4720](https://etherscan.io/address/0xD730b6fe43b78a0785A82928FB6E94996D2F4720)
+Mainnet - [0x7527e85c4b224ad0301b99d2e5a09085661ae8f3](https://etherscan.io/address/0x7527e85c4b224ad0301b99d2e5a09085661ae8f3)
 
 Rinkeby - [0xa72B399F44Eed50AcEa7194c63eD6b068E76AE6B](https://rinkeby.etherscan.io/address/0xa72B399F44Eed50AcEa7194c63eD6b068E76AE6B)
 
